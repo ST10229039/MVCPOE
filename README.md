@@ -37,3 +37,5 @@ Views: Implement views for different actions. Examples:
 Lecturer Dashboard: A UI for lecturers to submit claims, including input fields for hours worked, rates, and file uploads.
 Manager Dashboard: A UI for programming managers to review claims, with options to approve or reject them.
 
+File Upload: Use file upload controls on the lecturer submission form to allow uploads, and make sure to store the file paths in the database for later retrieval.
+
