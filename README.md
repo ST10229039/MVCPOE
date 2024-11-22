@@ -39,3 +39,20 @@ Manager Dashboard: A UI for programming managers to review claims, with options 
 
 File Upload: Use file upload controls on the lecturer submission form to allow uploads, and make sure to store the file paths in the database for later retrieval.
 
+# Claims Management System
+
+This is a simple Claims Management System built using ASP.NET MVC and SQL Server. The application allows lecturers to submit claims for their worked hours and gives programming managers the ability to approve or reject these claims.
+
+## Features
+
+- User authentication (lecturers and managers)
+- Lecturers can input hours worked, rates, and add descriptions.
+- File upload capability for claims submission.
+- Managers can review claims and approve or reject them.
+
+## Getting Started
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/claims-management-system.git
+
