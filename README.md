@@ -20,4 +20,11 @@ Claim: Stores information about the claims submitted by lecturers (hours worked,
 Controllers: Create controllers to handle requests related to claims and user management.
 
 ClaimsController: Manage claims for lecturers and programming managers.
-UsersController: Handle user registration, login, and ma
+UsersController: Handle user registration, login, 
+
+
+Views: Implement views for different actions. Examples:
+
+Lecturer Dashboard: A UI for lecturers to submit claims, including input fields for hours worked, rates, and file uploads.
+Manager Dashboard: A UI for programming managers to review claims, with options to approve or reject them.
+
