@@ -1,0 +1,35 @@
+﻿@model MVCPOE.Models.LecturerClaim
+@{
+
+
+    ViewData["Title"] = "Create Page";
+}
+
+<a asp-action="Details">Details</a>
+
+
+
+
+
+<form method="post" asp-action="claim_sub" enctype="multipart/form-data">
+
+    <label> Module name</label>
+    <input type="text" asp-for="module" required />
+    <br />
+    <label> Hours worked </label>
+    <input type="text" asp-for="hours_worked" required />
+    <br />
+    <label> Hours per rate on modules </label>
+    <input type="text" asp-for="hour_rate" required />
+    <br />
+    <label>  Description </label>
+    <textarea asp-for="description" required /></textarea>
+    <br />
+    <label> upload file [option] </label>
+    <input type="file" name="file_name" />
+
+    <input type="submit" value="Submit claim" required />
+
+
+
+</form>
