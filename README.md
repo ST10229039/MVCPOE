@@ -16,3 +16,8 @@ Entities: Define entities for your application. Examples might include:
 
 User: Stores user information (name, email, role, etc.)
 Claim: Stores information about the claims submitted by lecturers (hours worked, rates, descriptions, file uploads, status, etc.)
+
+Controllers: Create controllers to handle requests related to claims and user management.
+
+ClaimsController: Manage claims for lecturers and programming managers.
+UsersController: Handle user registration, login, and ma
