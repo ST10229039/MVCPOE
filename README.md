@@ -22,6 +22,15 @@ Controllers: Create controllers to handle requests related to claims and user ma
 ClaimsController: Manage claims for lecturers and programming managers.
 UsersController: Handle user registration, login, 
 
+Lecturer Submission: When a lecturer submits a claim, the application should:
+
+Validate inputs (e.g., hours worked, rates).
+Save the claim to the database with a status of Pending.
+Manager Review: A programming manager should be able to:
+
+View pending claims.
+Approve or reject claims, which updates the claim’s status in the database.
+
 
 Views: Implement views for different actions. Examples:
 
